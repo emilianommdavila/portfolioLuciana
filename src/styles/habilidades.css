@@ -1,0 +1,25 @@
+.habilidades{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+.listaHabilidades{
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.listaHabilidadesImagenes{
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.elementoListasHabilidadesImagenes > img{
+    width: 70px;
+    height: auto;
+    object-fit:cover;
+}
