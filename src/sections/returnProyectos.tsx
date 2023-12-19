@@ -1,7 +1,7 @@
 
 import '../App.css';
 import '../styles/proyectos.css';
-
+ 
 function ReturnProyectos() {
   const afectarOtraParteDelHTML = () => {
     // Lógica para afectar otra parte del HTML
