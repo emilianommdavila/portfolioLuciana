@@ -15,16 +15,16 @@ function ReturnHabilidades() {
       </ul>
       <ul className='listaHabilidadesImagenes'>  {/*estas listas se pueden reemplazar por algo variable*/}        
         <li className='elementoListasHabilidadesImagenes'>
-            <img src="../src/assets/programs/afterEffects.png" alt="MDN"/>
+            <img src="https://i.imgur.com/iOIOUD3.png" alt="MDN"/>
         </li>
         <li className='elementoListasHabilidadesImagenes'>
-            <img src="../src/assets/programs/illustrator.png" alt="MDN"/>
+            <img src="https://i.imgur.com/ijdDq3h.png" alt="MDN"/>
         </li>
         <li className='elementoListasHabilidadesImagenes'>
-            <img src="../src/assets/programs/maya.png" alt="MDN"/>
+            <img src="https://i.imgur.com/LYImmGD.png" alt="MDN"/>
         </li>
         <li className='elementoListasHabilidadesImagenes'>
-            <img src="../src/assets/programs/blender.png" alt="MDN"/>
+            <img src="https://i.imgur.com/c4k8GnW.png" alt="MDN"/>
         </li>
         
       </ul>

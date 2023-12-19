@@ -15,24 +15,18 @@ function ReturnProyectos() {
         <div className='proyectos'>
           {proyecto("Proyecto personal realizado con el software Blender.\n Concepto inspirado en el estilo “Avatar”.\n Realizado a partir de formar primitivas.",
             "https://i.imgur.com/bojn9rK.png",
-            "../src/assets/flor2.jpg")}
+            "https://i.imgur.com/yccjkTX.jpg")}
           {proyecto("Proyecto personal realizado con el software Blender.\n Concepto inspirado en el estilo “Avatar”.\n Realizado a partir de formar primitivas.",
-            "../src/assets/nave1.jpg",
-            "../src/assets/nave2.jpg")}
+            "https://i.imgur.com/gi38vKT.jpg",
+            "https://i.imgur.com/ZG5kELo.jpg")}
           <div className='grillaProyectos' >
-            {proyectoSecundario({ imagen: "../src/assets/habitacion1.png", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "../src/assets/mario1.jpg", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "../src/assets/silla1.jpg", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "../src/assets/pelota1.png", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "../src/assets/robot1.jpg", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "../src/assets/habitacionSecundaria1.jpg" , afectarFuncion: afectarOtraParteDelHTML})}
-            
-          </div>
-          <div className='otrasImagenes'>
-             <img src="../src/assets/silla1.jpg" alt="" />
-          <img src="../src/assets/silla1.jpg" alt="" />
-          <img src="../src/assets/silla1.jpg" alt="" />
-          <p>hola soy un proyecto</p></div>
+            {proyectoSecundario({ imagen: "https://i.imgur.com/EdwvFad.png", afectarFuncion: afectarOtraParteDelHTML })}
+            {proyectoSecundario({ imagen: "https://i.imgur.com/J27vwrJ.jpg", afectarFuncion: afectarOtraParteDelHTML })}
+            {proyectoSecundario({ imagen: "https://i.imgur.com/fh4XvDM.jpg", afectarFuncion: afectarOtraParteDelHTML })}
+            {proyectoSecundario({ imagen: "https://i.imgur.com/qWCYJpR.png", afectarFuncion: afectarOtraParteDelHTML })}
+            {proyectoSecundario({ imagen: "https://i.imgur.com/xyrrwZi.jpg", afectarFuncion: afectarOtraParteDelHTML })}
+            {proyectoSecundario({ imagen: "https://i.imgur.com/ahXjldG.jpg" , afectarFuncion: afectarOtraParteDelHTML})}
+          </div>          
         </div>
       </div>
     </section>
