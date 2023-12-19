@@ -1,5 +1,21 @@
+.descripcion{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
 #fotoSiglo21{
     width: 40%;
     height: auto;
-
+}
+#saludoPrincipal{
+    font-size:70px;
+}
+#ubicacion{
+    font-size: 40px;
+}
+#descripcion{
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 40px;
 }

@@ -7,15 +7,15 @@ function App() {
   return (
     <>
       <div className='barraBotones'>
-        <a href="https://vitejs.dev" target="_blank">
-          <h2>Sobre mi</h2>
+        <a href="#descripcion" style={{scrollBehavior: 'smooth'}}>
+          <div>Sobre mi</div>
         </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <h2>Habilidades</h2>
-        </a><a href="https://vitejs.dev" target="_blank">
-          <h2>Proyectos</h2>
-        </a><a href="https://vitejs.dev" target="_blank">
-          <h2>Contacto</h2>
+        <a href="#habilidades" style={{scrollBehavior: 'smooth'}}>
+          <div>Habilidades</div>
+        </a><a href="#proyectos" style={{scrollBehavior: 'smooth'}}>
+          <div>Proyectos</div>
+        </a><a href="" style={{scrollBehavior: 'smooth'}}>
+          <div>Contacto</div>
         </a>
       </div>
    {/* Agregar la sección como un componente */}

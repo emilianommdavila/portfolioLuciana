@@ -4,11 +4,13 @@ import '../styles/habilidades.css'
 
 function ReturnHabilidades() {
   return (
+    <section className='habilidades' id="habilidades">
     <div className='habilidades'>
+      <h2 id='tituloHabilidades'>Habilidades</h2>
       <ul className='listaHabilidades'>  
         <li className='elementoListasHabilidades'>Modelado 3D</li>
         <li className='elementoListasHabilidades'>Animación</li>
-        <li className='elementoListasHabilidades'>luminación</li>
+        <li className='elementoListasHabilidades'>Iluminación</li>
         <li className='elementoListasHabilidades'>Materiales</li>
       </ul>
       <ul className='listaHabilidadesImagenes'>  {/*estas listas se pueden reemplazar por algo variable*/}        
@@ -27,6 +29,7 @@ function ReturnHabilidades() {
         
       </ul>
     </div>
+    </section>
   );
 }
 

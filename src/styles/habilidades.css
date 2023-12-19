@@ -6,13 +6,13 @@
 
 }
 .listaHabilidades{
-    width: 80%;
+    width: 70%;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 .listaHabilidadesImagenes{
-    width: 80%;
+    width: 50%;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -23,3 +23,23 @@
     height: auto;
     object-fit:cover;
 }
+
+.listaHabilidades li {
+    height: 40px;
+    width: 17%;
+    outline: 3px solid #C898F8;
+    outline-offset: 3px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  #tituloHabilidades{
+    font-size: 70px;
+    color: white;
+  }
