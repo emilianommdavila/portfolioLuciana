@@ -73,7 +73,7 @@ function ReturnProyectos() {
               })
             })}
           </div>
-          <div className='especificacionProyecto'>
+          <div className='especificacionProyecto' id='especificacionProyecto'>
             <div className='descripcionDetallada'>
               <div className='imagenDetallada'>
                 <img id='imgaenDetalladaFuente' src={imagenDetallada} alt="" />
@@ -120,7 +120,8 @@ function proyectoSecundario({ imagen, afectarFuncion }: ProyectoSecundarioProps)
             alt=""
             onClick={afectarFuncion}
           />
-          <div className='textoEncima'>Ver más</div>
+          
+          <a href="#especificacionProyecto" className='textoEncima'>Ver más</a>
         </div>
       </div>
     </>

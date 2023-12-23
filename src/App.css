@@ -9,6 +9,7 @@ html {
 body {
   background-color: black;
 }
+
 #root {
   margin-left: 0px;
   padding-left: 0px;
@@ -103,6 +104,10 @@ body {
 
 @media (max-width: 400px){
  
+  #root{
+    background-image: url("C:\Users\emili\Desktop\Portfolio\portfolio-luciana\src\assets\fondo.png"); 
+    background-attachment: fixed; 
+  }
   .barraBotones{
     visibility: collapse;
     height: 0px;
