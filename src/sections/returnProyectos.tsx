@@ -1,13 +1,27 @@
-
+import React, { useState } from 'react';
 import '../App.css';
 import '../styles/proyectos.css';
- 
+
+interface DescripcionDetallada {
+  titulo: string;
+  contenido: string;
+}
+
 function ReturnProyectos() {
-  const afectarOtraParteDelHTML = () => {
-    // Lógica para afectar otra parte del HTML
-    // Puedes cambiar el estado, ejecutar una función, etc.
-    console.log('Afectar otra parte del HTMLs');
+  const [imagenDetallada, setImagenDetallada] = useState<string>("https://i.imgur.com/xyrrwZi.jpg");
+  const [descripcionDetallada, setDescripcionDetallada] = useState<DescripcionDetallada>({
+    titulo: "Robot Re-Copado",
+    contenido: "Robot hecho por Lulu recontra re copado",
+  });
+
+  const afectarOtraParteDelHTML = (nuevaImagen: string, nuevaDescripcion: DescripcionDetallada) => {
+    setImagenDetallada(nuevaImagen);
+    setDescripcionDetallada({
+      titulo: nuevaDescripcion.titulo,
+      contenido: nuevaDescripcion.contenido,
+    });
   };
+
   return (
     <section id="proyectos">
       <div>
@@ -20,13 +34,56 @@ function ReturnProyectos() {
             "https://i.imgur.com/gi38vKT.jpg",
             "https://i.imgur.com/ZG5kELo.jpg")}
           <div className='grillaProyectos' >
-            {proyectoSecundario({ imagen: "https://i.imgur.com/EdwvFad.png", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "https://i.imgur.com/J27vwrJ.jpg", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "https://i.imgur.com/fh4XvDM.jpg", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "https://i.imgur.com/qWCYJpR.png", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "https://i.imgur.com/xyrrwZi.jpg", afectarFuncion: afectarOtraParteDelHTML })}
-            {proyectoSecundario({ imagen: "https://i.imgur.com/ahXjldG.jpg" , afectarFuncion: afectarOtraParteDelHTML})}
-          </div>          
+            {proyectoSecundario({
+              imagen: "https://i.imgur.com/EdwvFad.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/EdwvFad.png", {
+                titulo: "Proyecto 1",
+                contenido: "Descripción del Proyecto 1",
+              })
+            })}
+             {proyectoSecundario({
+              imagen: "https://i.imgur.com/J27vwrJ.jpg",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/J27vwrJ.jpg", {
+                titulo: "Proyecto 1",
+                contenido: "Descripción del Proyecto 1",
+              })
+            })} {proyectoSecundario({
+              imagen: "https://i.imgur.com/fh4XvDM.jpg",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/fh4XvDM.jpg", {
+                titulo: "Proyecto 1",
+                contenido: "Descripción del Proyecto 1",
+              })
+            })} {proyectoSecundario({
+              imagen: "https://i.imgur.com/qWCYJpR.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qWCYJpR.png", {
+                titulo: "Proyecto 1",
+                contenido: "Descripción del Proyecto 1",
+              })
+            })} {proyectoSecundario({
+              imagen: "https://i.imgur.com/xyrrwZi.jpg",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/xyrrwZi.jpg", {
+                titulo: "Proyecto 1",
+                contenido: "Descripción del Proyecto 1",
+              })
+            })} {proyectoSecundario({
+              imagen: "https://i.imgur.com/ahXjldG.jpg",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ahXjldG.jpg", {
+                titulo: "Proyecto 1",
+                contenido: "Descripción del Proyecto 1",
+              })
+            })}
+          </div>
+          <div className='especificacionProyecto'>
+            <div className='descripcionDetallada'>
+              <div className='imagenDetallada'>
+                <img id='imgaenDetalladaFuente' src={imagenDetallada} alt="" />
+              </div>
+              <div className='descripcionEscrita'>
+                <h3>{descripcionDetallada.titulo}</h3>
+                <p>{descripcionDetallada.contenido}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -47,8 +104,12 @@ function proyecto(descripcion: string, direccionImagen1: string, direccionImagen
   );
 }
 
+interface ProyectoSecundarioProps {
+  imagen: string;
+  afectarFuncion: () => void;
+}
 
-function proyectoSecundario({ imagen, afectarFuncion }: { imagen: string, afectarFuncion: () => void }) {
+function proyectoSecundario({ imagen, afectarFuncion }: ProyectoSecundarioProps) {
   return (
     <>
       <div className='proyectoSecundario'>
@@ -65,7 +126,5 @@ function proyectoSecundario({ imagen, afectarFuncion }: { imagen: string, afecta
     </>
   );
 }
-
-
 
 export default ReturnProyectos;

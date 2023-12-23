@@ -157,7 +157,6 @@
     width: 100%;
     padding: 20px;
   }
-  
   /* Style the button used to pause/play the video */
   #myBtn {
     width: 200px;
@@ -172,4 +171,29 @@
   #myBtn:hover {
     background: #ddd;
     color: black;
+  }
+
+
+.descripcionDetallada{
+  /*visibility: hidden;*/  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  .imagenDetallada {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 900px; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Para centrar horizontalmente en el contenedor principal */
+  }
+  #imgaenDetalladaFuente{
+    width: 100%;
+
   }
