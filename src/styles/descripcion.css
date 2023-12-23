@@ -19,3 +19,21 @@ flex-direction: column;
     width: 80%;
     margin-bottom: 40px;
 }
+
+@media (max-width: 400px){
+ 
+    #saludoPrincipal{
+        font-size:30px;
+    }
+    #ubicacion{
+        font-size:20px;
+    }
+    #descripcion{
+        font-size: 20px;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    #fotoSiglo21{
+        width: 90%;
+    }
+  }

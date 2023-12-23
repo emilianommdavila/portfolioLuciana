@@ -3,7 +3,6 @@
     align-items: center;
     width: 100%;
     flex-direction: column;
-
 }
 .listaHabilidades{
     width: 70%;
@@ -43,3 +42,35 @@
     font-size: 70px;
     color: white;
   }
+
+  @media (max-width: 400px){ 
+  
+    #tituloHabilidades{
+        font-size: 30px;
+        color: white;
+    }
+    .listaHabilidades{
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .listaHabilidades li {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .listaHabilidadesImagenes{
+        display: grid;
+        margin-left: 0;
+        padding-left: 0;
+    grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas iguales */
+    gap: 10px; /* Espacio entre elementos */
+    justify-content: center;
+    align-items: center;     
+    }
+  }
+

@@ -197,3 +197,54 @@
     width: 100%;
 
   }
+
+
+  @media (max-width: 400px){
+ 
+    .grillaProyectos{
+      padding-top: 50px;;
+      grid-template-columns: repeat(1, 1fr); /* 3 columnas iguales */
+      grid-template-rows: repeat(2, 1fr); /* 2 filas iguales */
+  }
+  .descripcionDetallada{ 
+    flex-direction: column;   
+  }
+  .imagenDetallada {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Para centrar horizontalmente en el contenedor principal */
+  }
+
+.proyectoPrincipal {
+  padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    color:wheat;
+    font-weight: bold;
+}
+/*
+.proyectoPrincipal:first-child {
+  background-image: url("https://i.imgur.com/wYThxVc.jpg");
+  background-position: center;  Centra la imagen 
+  background-size: cover; 
+}
+
+
+.proyectoPrincipal:nth-child(2) {
+  background-image: url("https://i.imgur.com/eDdtuqb.jpg"); 
+  background-position: center;
+  background-size: cover;
+}
+*/
+
+#tituloProyectos{
+  font-size: 30px;
+}
+ }
