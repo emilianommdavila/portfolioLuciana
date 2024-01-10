@@ -9,7 +9,7 @@ interface DescripcionDetallada {
 }
 
 function ReturnProyectos() {
-  const [imagenDetallada, setImagenDetallada] = useState<string>("");
+  const [imagenDetallada, setImagenDetallada] = useState<string>("https://i.imgur.com/lpF488b.png");
   const [descripcionDetallada, setDescripcionDetallada] = useState<DescripcionDetallada>({
     titulo: "Presione en cualquier proyecto para abrir la descripción",
     contenido: "",
