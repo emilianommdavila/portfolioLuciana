@@ -2,6 +2,7 @@ import './App.css'
 import ReturnDescripcion from './sections/returnDescripcion'; 
 import ReturnHabilidades from './sections/returnHabilidades'; 
 import ReturnProyectos from './sections/returnProyectos'; 
+import ReturnContacto from './sections/returnContacto'; 
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
    {/* Aca falta agregar una barra separadora */}
    <ReturnHabilidades/>
    <ReturnProyectos />
+   <ReturnContacto />
     </>
   )
 }

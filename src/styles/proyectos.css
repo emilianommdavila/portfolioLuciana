@@ -73,7 +73,10 @@
     overflow: hidden;
     cursor: pointer;
   }
-  
+  .descripcionEscrita{
+    max-width: 50%;
+    margin-left: 10px;
+  }
  
   
   .imagenProyectoSecundario {
@@ -232,6 +235,10 @@
     font-weight: bold;
    
 }
+.descripcionProyecto{
+  height: 400px;
+}
+
 /*
 .proyectoPrincipal:first-child {
   background-image: url("https://i.imgur.com/wYThxVc.jpg");
