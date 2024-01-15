@@ -43,7 +43,7 @@
     color: white;
   }
 
-  @media (max-width: 500px){ 
+  @media (max-width: 750px){ 
   
     #tituloHabilidades{
         font-size: 30px;

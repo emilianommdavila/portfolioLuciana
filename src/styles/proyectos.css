@@ -44,6 +44,9 @@
     align-items: center;
 }
 
+
+
+
 .proyectoSecundario{
     width: 100%; /* Establece el ancho deseado para el contenedor */
     height: 200px; /* Establece la altura deseada para el contenedor */
@@ -88,6 +91,8 @@
   
   .textoEncima {
     position: absolute;
+    height: 100%;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -110,7 +115,7 @@
   
   .textoEncima {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem; /* Ajusta el tamaño según tus preferencias */
@@ -202,7 +207,7 @@
   }
 
 
-  @media (max-width: 500px){
+  @media (max-width: 750px){
  
     .grillaProyectos{
       padding-top: 50px;;
@@ -258,3 +263,9 @@
   font-size: 30px;
 }
  }
+
+ @media (max-width: 1300px){
+  .descripcionProyecto{
+    height: 370px;
+  }
+}
