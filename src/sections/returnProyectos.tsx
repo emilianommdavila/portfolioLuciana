@@ -46,10 +46,33 @@ function ReturnProyectos() {
         <div className='proyectos'>
           {proyecto('Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
             "https://i.imgur.com/bojn9rK.png",
-            "https://i.imgur.com/yccjkTX.jpg")}
+            "https://i.imgur.com/yccjkTX.jpg",{
+              imagen: "https://i.imgur.com/EdwvFad.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/bojn9rK.png", {
+                titulo: "Flor estilo 'Avatar'",
+                contenido: 'Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
+                url:"https://www.youtube.com/embed/bjPxftzzLZU?autoplay=1&mute=1",
+                heigth:"480",
+                width:"1343",
+                hidden: "block"
+              })
+            })}
+          
+
+          
           {proyecto("Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.",
             "https://i.imgur.com/gi38vKT.jpg",
-            "https://i.imgur.com/ZG5kELo.jpg")}
+            "https://i.imgur.com/ZG5kELo.jpg",{
+              imagen: "https://i.imgur.com/gi38vKT.jpg",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/gi38vKT.jpg", {
+                titulo: "Modelado USS Enterprise ",
+                contenido: 'Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.',
+                url:"ds",
+                heigth:"",
+                width:"",
+                hidden: "none"
+              })
+            })}
           <div className='grillaProyectos' >
             {proyectoSecundario({
               imagen: "https://i.imgur.com/EdwvFad.png",
@@ -124,6 +147,17 @@ function ReturnProyectos() {
                 hidden: "block"
               })
             })}
+            {proyectoSecundario({
+              imagen: "https://i.imgur.com/D18qLWM.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/D18qLWM.png", {
+                titulo: "Proyecto Composición Living",
+                contenido: 'Proyecto creado con el software  Blender con el propósito de explorar y perfeccionar la simulación de ropa y colisiones para futuras implementaciones. Se hizo hincapié en la creación de sombras y contrastes mediante la ubicación de luces desde diversos ángulos. Además, se probaron diferentes  texturas para resaltar y distinguir  la mesa y el piso de la escena.  ',
+                url:"",
+                heigth:"480",
+                width:"640",
+                hidden: "none"
+              })
+            })}
           </div>
           <div className='especificacionProyecto' id='especificacionProyecto'>
             <div className='descripcionDetallada'>
@@ -149,14 +183,19 @@ function ReturnProyectos() {
     
   );
 }
-
-function proyecto(descripcion: string, direccionImagen1: string, direccionImagen2: string) {
+interface ProyectoSecundarioProps {
+  imagen: string;
+  afectarFuncion: () => void;
+}
+function proyecto(descripcion: string, direccionImagen1: string, direccionImagen2: string, { imagen, afectarFuncion }: ProyectoSecundarioProps) {
   const lineasDescripcion = descripcion.split('\n');
 
   return (
     <div className='proyectoPrincipal'>
       <div className='proyectoPrincipalPresentacion'>
+      <a href="#especificacionProyecto"  onClick={afectarFuncion}>
         <img className='imagenProyectoPrincipal' src={direccionImagen1} alt="" />
+      </a>        
       </div>
       <div className='proyectoPrincipalDescripcion'>
         <img className='imagenProyectoSecundaria' src={direccionImagen2} alt="" />
@@ -173,10 +212,7 @@ function proyecto(descripcion: string, direccionImagen1: string, direccionImagen
   );
 }
 
-interface ProyectoSecundarioProps {
-  imagen: string;
-  afectarFuncion: () => void;
-}
+
 
 function proyectoSecundario({ imagen, afectarFuncion }: ProyectoSecundarioProps) {
   return (
