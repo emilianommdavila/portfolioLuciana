@@ -187,7 +187,7 @@ interface ProyectoSecundarioProps {
   imagen: string;
   afectarFuncion: () => void;
 }
-function proyecto(descripcion: string, direccionImagen1: string, direccionImagen2: string, { imagen, afectarFuncion }: ProyectoSecundarioProps) {
+function proyecto(descripcion: string, direccionImagen1: string, direccionImagen2: string, {  afectarFuncion }: ProyectoSecundarioProps) {
   const lineasDescripcion = descripcion.split('\n');
 
   return (
