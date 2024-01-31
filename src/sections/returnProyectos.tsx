@@ -158,6 +158,17 @@ function ReturnProyectos() {
                 hidden: "none"
               })
             })}
+            {proyectoSecundario({
+              imagen: "https://i.imgur.com/CXgIVvk.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/kEPRY2c.png", {
+                titulo: "Proyecto Personaje Zorro",
+                contenido: 'Proyecto realizado con el software blender 3D. El propósito de este trabajo era el diseño y creación de un personaje con un buen acabado y un estilo cartoon.',
+                url:"",
+                heigth:"480",
+                width:"640",
+                hidden: "none"
+              })
+            })}
           </div>
           <div className='especificacionProyecto' id='especificacionProyecto'>
             <div className='descripcionDetallada'>
@@ -194,6 +205,8 @@ function proyecto(descripcion: string, direccionImagen1: string, direccionImagen
     <div className='proyectoPrincipal'>
       <div className='proyectoPrincipalPresentacion'>
       <a href="#especificacionProyecto"  onClick={afectarFuncion}>
+        <a href="#especificacionProyecto" className='textoEncima1' onClick={afectarFuncion}>
+          Ver más</a>
         <img className='imagenProyectoPrincipal' src={direccionImagen1} alt="" />
       </a>        
       </div>

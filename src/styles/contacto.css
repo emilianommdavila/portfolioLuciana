@@ -30,8 +30,10 @@
     
     }
     .imgContacto{
-        max-width: 15%;
-        height: 15%;
+        max-width: 25%;
+        min-width: 25%;
+        height: 25%;
+        min-height: 25%;
         margin-right: 0px;
     }
     

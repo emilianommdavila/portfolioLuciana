@@ -15,7 +15,7 @@ function App() {
           <div>Habilidades</div>
         </a><a href="#proyectos" style={{scrollBehavior: 'smooth'}}>
           <div>Proyectos</div>
-        </a><a href="" style={{scrollBehavior: 'smooth'}}>
+        </a><a href="#contacto" style={{scrollBehavior: 'smooth'}}>
           <div>Contacto</div>
         </a>
       </div>
