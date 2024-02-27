@@ -171,7 +171,7 @@ function ReturnProyectos() {
               })
             })}
              {proyectoSecundario({
-              imagen: "https://imgur.com/xBRI3Ox",
+              imagen: "https://i.imgur.com/xBRI3Ox.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/wYAtNFF.jpg", {
                 titulo: "Proyecto Patito",
                 contenido: 'Proyecto de diseño de personaje realizado con el software Blender. Se utilizó Particle system para la creación del pasto usando una textura como base. Para la iluminación se utilizaron area lights y una imagen HDRi buscando dar naturalidad a la escena, también se realizó una serie de combinaciones de nodos para crear el efecto de nubes de tormenta. Respecto al personaje se buscó que tuviera características cartoon y un acabado muy suavizado. ',
