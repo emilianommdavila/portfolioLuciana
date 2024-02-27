@@ -152,7 +152,7 @@ function ReturnProyectos() {
               imagen: "https://i.imgur.com/CXgIVvk.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/kEPRY2c.png", {
                 titulo: "Proyecto Personaje Zorro",
-                contenido: 'Proyecto realizado con el software blender 3D. El propósito de este trabajo era el diseño y creación de un personaje con un buen acabado y un estilo cartoon.',
+                contenido: 'Proyecto de diseño de personaje realizado con el software blender 3D. Se buscó un acabado cartoon  con un fondo neutro para que realizara el personaje. En la creación del mismo se mezclaron tanto figuras geométricas básicas como curvas, por ejemplo en la boca, para que dichos rasgos fueran más fáciles de ejecutar. ',
                 url:"",
                 heigth:"480",
                 width:"640",
