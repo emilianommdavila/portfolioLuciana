@@ -160,7 +160,7 @@ function ReturnProyectos() {
               })
             })}
              {proyectoSecundario({
-              imagen: "https://i.imgur.com/f6m0IjP.jpg",
+              imagen: "https://i.imgur.com/5xN5I0X.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/f6m0IjP.jpg", {
                 titulo: "Proyecto Osito",
                 contenido: 'Proyecto de diseño de personaje realizado con el software Blender. Se utilizó Particle system con una textura como base para la creación del pasto, también se realizaron combinaciones de nodos para lograr un buen acabado en las nubes del proyecto. Respecto a la iluminación se busco algo natural utilizando como base con una imagen HDRi y luego se utilizaron area lights para enfatizar rasgos del personaje. Para el fondo  empezó con una curva para hacer el tronco de los árboles y para las copas de los mismo cubo con pocas subdivisiones, se buscaba lograr un contraste entre el acabado más suavizado del personaje y un modelado más low poly con los árboles del fondo.',
@@ -171,7 +171,7 @@ function ReturnProyectos() {
               })
             })}
              {proyectoSecundario({
-              imagen: "https://i.imgur.com/wYAtNFF.jpg",
+              imagen: "https://imgur.com/xBRI3Ox",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/wYAtNFF.jpg", {
                 titulo: "Proyecto Patito",
                 contenido: 'Proyecto de diseño de personaje realizado con el software Blender. Se utilizó Particle system para la creación del pasto usando una textura como base. Para la iluminación se utilizaron area lights y una imagen HDRi buscando dar naturalidad a la escena, también se realizó una serie de combinaciones de nodos para crear el efecto de nubes de tormenta. Respecto al personaje se buscó que tuviera características cartoon y un acabado muy suavizado. ',
