@@ -95,17 +95,7 @@ function ReturnProyectos() {
                 width:"",
                 hidden: "none"
               })
-            })} {proyectoSecundario({
-              imagen: "https://i.imgur.com/fh4XvDM.jpg",
-              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/fh4XvDM.jpg", {
-                titulo: "Silla Maya",
-                contenido: "Proyecto personal ejecutado en Autodesk Maya y construido a partir de formas primitivas, tuvo como objetivo la creación de un objeto simple y cotidiano para optimizar el tiempo de elaboración. Se exploraron elementos visuales mediante el juego de sombras y el color de fondo para lograr un efecto de contraste que realzara la presentación del objeto en cuestión.",
-                url:"",
-                heigth:"",
-                width:"",
-                hidden: "none"
-              })
-            })} {proyectoSecundario({
+            })}  {proyectoSecundario({
               imagen: "https://i.imgur.com/qWCYJpR.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qWCYJpR.png", {
                 titulo: "Pelota AE.",
