@@ -27,7 +27,6 @@ function ReturnProyectos() {
 
   const afectarOtraParteDelHTML = (nuevaImagen: string, nuevaDescripcion: DescripcionDetallada) => {
     setImagenDetallada(nuevaImagen);
-    console.log("hola")
     setDescripcionDetallada({
       titulo: nuevaDescripcion.titulo,
       contenido: nuevaDescripcion.contenido,
@@ -43,8 +42,9 @@ function ReturnProyectos() {
     <section id="proyectos">
       <div>
         <h2 id='tituloProyectos'>Proyectos</h2>
+        <h2 id=''>Motion Graphics</h2>
         <div className='proyectos'>
-          {proyecto('Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
+          {/* {proyecto('Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
             "https://i.imgur.com/bojn9rK.png",
             "https://i.imgur.com/yccjkTX.jpg",{
               imagen: "https://i.imgur.com/EdwvFad.png",
@@ -56,8 +56,8 @@ function ReturnProyectos() {
                 width:"1343",
                 hidden: "block"
               })
-            })}
-          {proyecto("Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.",
+            })} */}
+          {/* {proyecto("Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.",
             "https://i.imgur.com/gi38vKT.jpg",
             "https://i.imgur.com/ZG5kELo.jpg",{
               imagen: "https://i.imgur.com/gi38vKT.jpg",
@@ -69,7 +69,7 @@ function ReturnProyectos() {
                 width:"",
                 hidden: "none"
               })
-            })}
+            })} */}
             
             
           <div className='grillaProyectos' >
@@ -105,7 +105,42 @@ function ReturnProyectos() {
                 width:"",
                 hidden: "block"
               })
-            })}
+            })}           
+      
+          </div>
+          </div>
+          <h2 id=''>Tercera dimensao manhito</h2>
+        <div className='proyectos'>
+          {/* {proyecto('Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
+            "https://i.imgur.com/bojn9rK.png",
+            "https://i.imgur.com/yccjkTX.jpg",{
+              imagen: "https://i.imgur.com/EdwvFad.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/bojn9rK.png", {
+                titulo: "Flor estilo 'Avatar'",
+                contenido: 'Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
+                url:"https://www.youtube.com/embed/bjPxftzzLZU?autoplay=1&mute=1",
+                heigth:"480",
+                width:"1343",
+                hidden: "block"
+              })
+            })} */}
+          {/* {proyecto("Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.",
+            "https://i.imgur.com/gi38vKT.jpg",
+            "https://i.imgur.com/ZG5kELo.jpg",{
+              imagen: "https://i.imgur.com/gi38vKT.jpg",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/gi38vKT.jpg", {
+                titulo: "Modelado USS Enterprise ",
+                contenido: 'Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.',
+                url:"ds",
+                heigth:"",
+                width:"",
+                hidden: "none"
+              })
+            })} */}
+            
+            
+          <div className='grillaProyectos' >
+          
             {proyectoSecundario({
               imagen: "https://i.imgur.com/EdwvFad.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/EdwvFad.png", {
