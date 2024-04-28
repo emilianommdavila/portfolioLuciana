@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import '../App.css';
 import '../styles/proyectos.css';
-import React from 'react';
+// import React from 'react';
 import Iframe from './iframe';
 
 
@@ -140,7 +140,7 @@ function ReturnProyectos() {
             
             
           <div className='grillaProyectos' >
-          
+           
             {proyectoSecundario({
               imagen: "https://i.imgur.com/EdwvFad.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/EdwvFad.png", {
@@ -268,32 +268,32 @@ interface ProyectoSecundarioProps {
   imagen: string;
   afectarFuncion: () => void;
 }
-function proyecto(descripcion: string, direccionImagen1: string, direccionImagen2: string, {  afectarFuncion }: ProyectoSecundarioProps) {
-  const lineasDescripcion = descripcion.split('\n');
+// function proyecto(descripcion: string, direccionImagen1: string, direccionImagen2: string, {  afectarFuncion }: ProyectoSecundarioProps) {
+//   const lineasDescripcion = descripcion.split('\n');
 
-  return (
-    <div className='proyectoPrincipal'>
-      <div className='proyectoPrincipalPresentacion'>
-      <a href="#especificacionProyecto"  onClick={afectarFuncion}>
-        <a href="#especificacionProyecto" className='textoEncima1' onClick={afectarFuncion}>
-          Ver más</a>
-        <img className='imagenProyectoPrincipal' src={direccionImagen1} alt="" />
-      </a>        
-      </div>
-      <div className='proyectoPrincipalDescripcion'>
-        <img className='imagenProyectoSecundaria' src={direccionImagen2} alt="" />
-        <div className='descripcionProyecto'>
-          {lineasDescripcion.map((linea, index) => (
-            <React.Fragment key={index}>
-              {linea}
-              <br />
-            </React.Fragment>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
+//   return (
+//     <div className='proyectoPrincipal'>
+//       <div className='proyectoPrincipalPresentacion'>
+//       <a href="#especificacionProyecto"  onClick={afectarFuncion}>
+//         <a href="#especificacionProyecto" className='textoEncima1' onClick={afectarFuncion}>
+//           Ver más</a>
+//         <img className='imagenProyectoPrincipal' src={direccionImagen1} alt="" />
+//       </a>        
+//       </div>
+//       <div className='proyectoPrincipalDescripcion'>
+//         <img className='imagenProyectoSecundaria' src={direccionImagen2} alt="" />
+//         <div className='descripcionProyecto'>
+//           {lineasDescripcion.map((linea, index) => (
+//             <React.Fragment key={index}>
+//               {linea}
+//               <br />
+//             </React.Fragment>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
 
 
