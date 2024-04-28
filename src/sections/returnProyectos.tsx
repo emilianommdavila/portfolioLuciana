@@ -57,9 +57,6 @@ function ReturnProyectos() {
                 hidden: "block"
               })
             })}
-          
-
-          
           {proyecto("Este proyecto, elaborado con Autodesk Maya como parte de la materia de Modelado 3D,\n toma inspiración de la icónica nave USS Enterprise de la serie Star Trek. \nSe utilizaron planos detallados como referencia visual para guiar el proceso de creación. \nLa metodología se centró en el uso de formas primitivas con el objetivo de lograr un modelado Low Poly, \nbuscando así un enfoque más simplificado y estilizado.",
             "https://i.imgur.com/gi38vKT.jpg",
             "https://i.imgur.com/ZG5kELo.jpg",{
@@ -73,7 +70,42 @@ function ReturnProyectos() {
                 hidden: "none"
               })
             })}
+            
+            
           <div className='grillaProyectos' >
+          {proyectoSecundario({
+              imagen: "https://i.imgur.com/yb1d93d.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
+                titulo: "Video Intitucional Hospital",
+                contenido: 'Lorem Ipsum',
+                url:"https://www.youtube.com/embed/cVqiDJ2YCMY?autoplay=1&mute=1",
+                heigth:"480",
+                width:"640",
+                hidden: "block"
+              })
+            })}
+            {proyectoSecundario({
+              imagen: "https://i.imgur.com/ZZOdp4P.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ZZOdp4P.png", {
+                titulo: "Video Intitucional Hospital",
+                contenido: 'Lorem Ipsum',
+                url:"https://www.youtube.com/embed/haWSmT4dnOQ?autoplay=1&mute=1",
+                heigth:"480",
+                width:"640",
+                hidden: "block"
+              })
+            })}
+            {proyectoSecundario({
+              imagen: "https://i.imgur.com/qWCYJpR.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qWCYJpR.png", {
+                titulo: "Pelota AE.",
+                contenido: "Este proyecto en 2D, desarrollado con el software After Effects, se enfocó en la manipulación del gráfico de curvas para lograr una animación fluida y realista. Se agregó personalidad a la pelota mediante expresiones faciales que evolucionan a lo largo de la animación, enfatizando el carácter de la misma. Además, se aplicó el principio de exageración para otorgarle una estética caricaturesca, asegurando un impacto visual distintivo.",
+                url:"https://www.youtube.com/embed/LQTOETGxUAM?autoplay=1&mute=1",
+                heigth:"",
+                width:"",
+                hidden: "block"
+              })
+            })}
             {proyectoSecundario({
               imagen: "https://i.imgur.com/EdwvFad.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/EdwvFad.png", {
@@ -95,17 +127,7 @@ function ReturnProyectos() {
                 width:"",
                 hidden: "none"
               })
-            })}  {proyectoSecundario({
-              imagen: "https://i.imgur.com/qWCYJpR.png",
-              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qWCYJpR.png", {
-                titulo: "Pelota AE.",
-                contenido: "Este proyecto en 2D, desarrollado con el software After Effects, se enfocó en la manipulación del gráfico de curvas para lograr una animación fluida y realista. Se agregó personalidad a la pelota mediante expresiones faciales que evolucionan a lo largo de la animación, enfatizando el carácter de la misma. Además, se aplicó el principio de exageración para otorgarle una estética caricaturesca, asegurando un impacto visual distintivo.",
-                url:"https://www.youtube.com/embed/LQTOETGxUAM?autoplay=1&mute=1",
-                heigth:"",
-                width:"",
-                hidden: "block"
-              })
-            })} {proyectoSecundario({
+            })}   {proyectoSecundario({
               imagen: "https://i.imgur.com/xyrrwZi.jpg",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/xyrrwZi.jpg", {
                 titulo: "Robot",
@@ -181,6 +203,7 @@ function ReturnProyectos() {
                 hidden: "none"
               })
             })}
+      
           </div>
           <div className='especificacionProyecto' id='especificacionProyecto'>
             <div className='descripcionDetallada'>
