@@ -42,7 +42,7 @@ function ReturnProyectos() {
     <section id="proyectos">
       <div>
         <h2 id='tituloProyectos'>Proyectos</h2>
-        <h2 id=''>Motion Graphics</h2>
+        <h1 id=''>Motion Graphics</h1>
         <div className='proyectos'>
           {/* {proyecto('Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
             "https://i.imgur.com/bojn9rK.png",
@@ -77,7 +77,7 @@ function ReturnProyectos() {
               imagen: "https://i.imgur.com/yb1d93d.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
                 titulo: "Video Intitucional Hospital",
-                contenido: 'Lorem Ipsum',
+                contenido: "Proyecto  Hospital Regional Río Cuarto. Proyecto realizado para la materia 'Seminario de prácticas profesionales', elaborado con el software Adobe After Effects. Su propósito es ser un video institucional que presenta las principales áreas, actividades y servicios de Salud Mental que ofrece el Hospital Regional Río Cuarto. Se buscó que la información fuera amena y que tanto los colores, los íconos como la música complementaran el trabajo.",
                 url:"https://www.youtube.com/embed/cVqiDJ2YCMY?autoplay=1&mute=1",
                 heigth:"480",
                 width:"640",
@@ -87,8 +87,8 @@ function ReturnProyectos() {
             {proyectoSecundario({
               imagen: "https://i.imgur.com/ZZOdp4P.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ZZOdp4P.png", {
-                titulo: "Video Intitucional Hospital",
-                contenido: 'Lorem Ipsum',
+                titulo: "Demo herramientas After Effects",
+                contenido:"'Proyecto realizado como parte de la materia 'Seminario de prácticas profesionales', elaborado con el software After Effects. Tiene el propósito de demostrar de forma concisa algunas de las técnicas y herramientas que manejo en Adobe After Effects. Las técnicas demostradas son las siguientes: Capas 3D, Luces virtuales, Animación de cámaras, Animación de texto que siga una forma libre, Animación de texto tipo escritura a mano.'",
                 url:"https://www.youtube.com/embed/haWSmT4dnOQ?autoplay=1&mute=1",
                 heigth:"480",
                 width:"640",
@@ -109,7 +109,7 @@ function ReturnProyectos() {
       
           </div>
           </div>
-          <h2 id=''>Tercera dimensao manhito</h2>
+          <h1 id=''>Mi arte en 3D</h1>
         <div className='proyectos'>
           {/* {proyecto('Proyecto desarrollado en Blender e inspirado en el universo de "Avatar", \nse construyó a partir de formas primitivas y curvas. Se destaca por una animación sutil\n diseñada para resaltar tanto el proyecto en sí como el juego de luces.\nEn relación con la iluminación, se seleccionaron colores acordes a la estética elegida, mientras que las hojas \ncuentan con una iluminación propia gracias al "nodo emission". Además, se incorporaron luces de tipo "point" y "area"\n estratégicamente para resaltar áreas específicas del proyecto.',
             "https://i.imgur.com/bojn9rK.png",
@@ -238,6 +238,7 @@ function ReturnProyectos() {
                 hidden: "none"
               })
             })}
+          
       
           </div>
           <div className='especificacionProyecto' id='especificacionProyecto'>
