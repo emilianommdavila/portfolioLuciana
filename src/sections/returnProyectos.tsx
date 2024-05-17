@@ -84,6 +84,17 @@ function ReturnProyectos() {
                 hidden: "block"
               })
             })}
+             {proyectoSecundario({
+              imagen: "https://i.imgur.com/Bjz1QCH.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/Bjz1QCH.png", {
+                titulo: "Ciclo de Caminata",
+                contenido: "Este proyecto en 2D, desarrollado con el software After Effects, se enfocó en la manipulación del gráfico de curvas para lograr una animación fluida y realista. Se agregó personalidad a la pelota mediante expresiones faciales que evolucionan a lo largo de la animación, enfatizando el carácter de la misma. Además, se aplicó el principio de exageración para otorgarle una estética caricaturesca, asegurando un impacto visual distintivo.",
+                url:"https://www.youtube.com/embed/h1sNKVckjGE?autoplay=1&mute=1",
+                heigth:"",
+                width:"",
+                hidden: "block"
+              })
+            })} 
             {proyectoSecundario({
               imagen: "https://i.imgur.com/ZZOdp4P.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ZZOdp4P.png", {
