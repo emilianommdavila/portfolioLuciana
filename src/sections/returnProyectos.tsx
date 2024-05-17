@@ -88,7 +88,7 @@ function ReturnProyectos() {
               imagen: "https://i.imgur.com/Bjz1QCH.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/Bjz1QCH.png", {
                 titulo: "Ciclo de Caminata",
-                contenido: "Este proyecto se realizó con el software After Effects como parte de una práctica personal, con el objetivo de aplicar la teoría para crear un ciclo de caminata. Se comenzó animando desde lo general hasta lo particular para lograr un buen acabado. Se emplearon expresiones como "loopIn" y "loopOut" para crear bucles, además de duplicar la composición para animar el parpadeo de los ojos en una de ellas y luego intercalar con la primera composición. Se buscó principalmente que la caminata tuviera aplicación de teoría, agregando realismo y personalidad al personaje, especialmente mediante el overlapping.",
+                contenido: "Este proyecto se realizó con el software After Effects como parte de una práctica personal, con el objetivo de aplicar la teoría para crear un ciclo de caminata. Se comenzó animando desde lo general hasta lo particular para lograr un buen acabado. Se emplearon expresiones como 'loopIn' y 'loopOut' para crear bucles, además de duplicar la composición para animar el parpadeo de los ojos en una de ellas y luego intercalar con la primera composición. Se buscó principalmente que la caminata tuviera aplicación de teoría, agregando realismo y personalidad al personaje, especialmente mediante el overlapping.",
                 url:"https://www.youtube.com/embed/h1sNKVckjGE?autoplay=1&mute=1",
                 heigth:"",
                 width:"",
