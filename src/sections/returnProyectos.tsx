@@ -175,16 +175,6 @@ function ReturnProyectos() {
               })
             })}
              {proyectoSecundario({
-              imagen: "https://i.imgur.com/J27vwrJ.jpg",
-              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/J27vwrJ.jpg", {
-                titulo: "Composición Mario",
-                contenido: 'Composición elaborada con Blender e inspirada en el juego "Mario", se construyó utilizando formas primitivas. El enfoque principal del proyecto fue practicar el sistema de partículas, aprovechando su funcionalidad en la creación del pasto en la composición. Además, se incorporó un efecto de desenfoque en los personajes posteriores para resaltar la presencia del protagonista principal, situado al frente de la escena.',
-                url:"s",
-                heigth:"",
-                width:"",
-                hidden: "none"
-              })
-            })}   {proyectoSecundario({
               imagen: "https://i.imgur.com/xyrrwZi.jpg",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/xyrrwZi.jpg", {
                 titulo: "Robot",
