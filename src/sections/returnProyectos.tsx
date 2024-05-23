@@ -89,7 +89,7 @@ function ReturnProyectos() {
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/Bjz1QCH.png", {
                 titulo: "Ciclo de Caminata",
                 contenido: "Este proyecto se realizó con el software After Effects como parte de una práctica personal, con el objetivo de aplicar la teoría para crear un ciclo de caminata. Se comenzó animando desde lo general hasta lo particular para lograr un buen acabado. Se emplearon expresiones como 'loopIn' y 'loopOut' para crear bucles, además de duplicar la composición para animar el parpadeo de los ojos en una de ellas y luego intercalar con la primera composición. Se buscó principalmente que la caminata tuviera aplicación de teoría, agregando realismo y personalidad al personaje, especialmente mediante el overlapping.",
-                url:"https://www.youtube.com/embed/h1sNKVckjGE?autoplay=1&mute=1",
+                url:"https://www.youtube.com/watch?v=8E0lcQmBvb0&ab?autoplay=1&mute=1",
                 heigth:"",
                 width:"",
                 hidden: "block"
@@ -116,7 +116,18 @@ function ReturnProyectos() {
                 width:"",
                 hidden: "block"
               })
-            })}           
+            })}  
+            {proyectoSecundario({
+              imagen: "https://i.imgur.com/ooCXppk.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ooCXppk.png", {
+                titulo: "Proyecto carrera + parallax.",
+                contenido: "Proyecto realizado con el software After Effects como parte de una práctica personal con el objetivo de desarrollar un ciclo de carrera. Se desarrolló el ciclo teniendo en cuenta la teoría de Richard Williams y prestando atención a las diferencias con un ciclo de caminata. Para la realización del fondo con efectos parallax se duplicaron por diferentes cantidades (dependiendo la velocidad buscada) y se colocaron unas seguidas de otra para luego animar la posición de la principal. Por último se agregaron efectos como desenfoque y ruido para darle los últimos detalles al trabajo.",
+                url:"https://youtu.be/FD6kkSW0LaE?autoplay=1&mute=1",
+                heigth:"",
+                width:"",
+                hidden: "block"
+              })
+            })}          
       
           </div>
           </div>
