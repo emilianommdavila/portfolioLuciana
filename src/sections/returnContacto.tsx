@@ -8,11 +8,6 @@ function ReturnContacto() {
     <div className='descripcion'>
       
       <h1 id='tituloContacto'>Contacto</h1>   
-
-      <a className='bloqueContacto' href="https://www.behance.net/lucianammateo">
-        <img className="imgContacto" src="https://i.imgur.com/O4jHQGM.png" alt="" />
-        <h3 className='dato'>https://www.behance.net/lucianammateo</h3></a>
-
       
       <a className='bloqueContacto' href="https://drive.google.com/file/d/113phDR2YsQEM9kV2vdJYdkg9x9Gpqm-t/view">
         <img className="imgContacto" src="https://i.imgur.com/lT0Caej.png" alt="" />
