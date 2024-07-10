@@ -78,7 +78,7 @@ function ReturnProyectos() {
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
                 titulo: "Video Intitucional Hospital",
                 contenido: "Proyecto  Hospital Regional Río Cuarto. Proyecto realizado para la materia 'Seminario de prácticas profesionales', elaborado con el software Adobe After Effects. Su propósito es ser un video institucional que presenta las principales áreas, actividades y servicios de Salud Mental que ofrece el Hospital Regional Río Cuarto. Se buscó que la información fuera amena y que tanto los colores, los íconos como la música complementaran el trabajo.",
-                url:"https://www.youtube.com/embed/cVqiDJ2YCMY?autoplay=1&mute=1",
+                url:"https://www.youtube.com/embed/ZLy3CAPaGJU?autoplay=1&mute=1",
                 heigth:"480",
                 width:"640",
                 hidden: "block"
