@@ -99,7 +99,7 @@ function ReturnProyectos() {
               imagen: "https://i.imgur.com/yb1d93d.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
                 titulo: "The Mermaid State",
-                contenido: "En este proyecto, utilicé el software After Effects para crear una animación vibrante y dinámica. A través de la combinación de colores y sonidos evocadores del océano, doy vida a un logo inspirado en la belleza y serenidad de este entorno marino. La animación busca capturar la esencia del mar, transformando el logo en una representación visual y auditiva que resuena con el espíritu del océano.",
+                contenido: "En este proyecto, utilicé el software After Effects para crear una animación vibrante y dinámica. A través de la combinación de colores y sonidos busco dar vida a un logo inspirado en mar.",
                 url:"https://www.youtube.com/embed/pQW5kQavudY?autoplay=1&mute=1",
                 heigth:"480",
                 width:"640",
