@@ -74,6 +74,17 @@ function ReturnProyectos() {
             
           <div className='grillaProyectos' >
           {proyectoSecundario({
+              imagen: "https://i.imgur.com/6aLPqFE.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/GDKs6yN.gif", {
+                titulo: "Sin Fin Cafetero",
+                contenido: 'En este proyecto, tuve el objetivo de crear una animación en bucle que se destacara al no mostrar un inicio o fin perceptible. Utilicé Adobe After Effects y jugué con las capas 3D para añadir profundidad y complejidad visual. El resultado me dejó muy conforme, ya que se aprecia una animación fluida y continua que simula un efecto de infinito, destacando la ilusión de un ciclo sin fin. ',
+                url:"ds",
+                heigth:"",
+                width:"",
+                hidden: "none"
+              })
+            })},
+          {proyectoSecundario({
               imagen: "https://i.imgur.com/yb1d93d.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
                 titulo: "Video Intitucional Hospital",
