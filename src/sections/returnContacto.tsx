@@ -9,7 +9,7 @@ function ReturnContacto() {
       
       <h1 id='tituloContacto'>Contacto</h1>   
       
-      <a className='bloqueContacto' href="https://drive.google.com/file/d/113phDR2YsQEM9kV2vdJYdkg9x9Gpqm-t/view">
+      <a className='bloqueContacto' href="https://1drv.ms/b/c/eeb3ee7102904988/Ef6biSD4_5dCsR2EUWPxSgEB-_CHa7zGaGg0TSK_wuUDHA?e=UW8noa">
         <img className="imgContacto" src="https://i.imgur.com/lT0Caej.png" alt="" />
         <h3 className='dato'>Curriculum Vitae </h3></a>
 
