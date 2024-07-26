@@ -101,7 +101,6 @@ function ReturnProyectos() {
                 titulo: "The Mermaid State",
                 contenido: "En este proyecto, utilicé el software After Effects para crear una animación vibrante y dinámica. A través de la combinación de colores y sonidos busco dar vida a un logo inspirado en mar.",
                 url:"https://www.youtube.com/embed/pQW5kQavudY?autoplay=1&mute=1",
-                url:"ds",
                 heigth:"",
                 width:"",
                 hidden: "none"
