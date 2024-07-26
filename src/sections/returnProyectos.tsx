@@ -83,13 +83,24 @@ function ReturnProyectos() {
                 width:"",
                 hidden: "none"
               })
-            })},
+            })}
           {proyectoSecundario({
               imagen: "https://i.imgur.com/yb1d93d.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
                 titulo: "Video Intitucional Hospital",
-                contenido: "Proyecto  Hospital Regional Río Cuarto. Proyecto realizado para la materia 'Seminario de prácticas profesionales', elaborado con el software Adobe After Effects. Su propósito es ser un video institucional que presenta las principales áreas, actividades y servicios de Salud Mental que ofrece el Hospital Regional Río Cuarto. Se buscó que la información fuera amena y que tanto los colores, los íconos como la música complementaran el trabajo.",
+                contenido: "Proyecto realizado para la materia 'Seminario de prácticas profesionales', elaborado con el software Adobe After Effects. Su propósito es ser un video institucional que presenta las principales áreas, actividades y servicios de Salud Mental que ofrece el Hospital Regional Río Cuarto. Se buscó que la información fuera amena y que tanto los colores, los íconos como la música complementaran el trabajo.",
                 url:"https://www.youtube.com/embed/ZLy3CAPaGJU?autoplay=1&mute=1",
+                heigth:"480",
+                width:"640",
+                hidden: "block"
+              })
+            })}
+                {proyectoSecundario({
+              imagen: "https://i.imgur.com/yb1d93d.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
+                titulo: "The Mermaid State",
+                contenido: "En este proyecto, utilicé el software After Effects para crear una animación vibrante y dinámica. A través de la combinación de colores y sonidos evocadores del océano, doy vida a un logo inspirado en la belleza y serenidad de este entorno marino. La animación busca capturar la esencia del mar, transformando el logo en una representación visual y auditiva que resuena con el espíritu del océano.",
+                url:"https://www.youtube.com/embed/pQW5kQavudY?autoplay=1&mute=1",
                 heigth:"480",
                 width:"640",
                 hidden: "block"
@@ -99,40 +110,18 @@ function ReturnProyectos() {
               imagen: "https://i.imgur.com/qeOHvOE.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qeOHvOE.png", {
                 titulo: "Ciclo de Caminata",
-                contenido: "Este proyecto se realizó con el software After Effects como parte de una práctica personal, con el objetivo de aplicar la teoría para crear un ciclo de caminata. Se comenzó animando desde lo general hasta lo particular para lograr un buen acabado. Se emplearon expresiones como 'loopIn' y 'loopOut' para crear bucles, además de duplicar la composición para animar el parpadeo de los ojos en una de ellas y luego intercalar con la primera composición. Se buscó principalmente que la caminata tuviera aplicación de teoría, agregando realismo y personalidad al personaje, especialmente mediante el overlapping.",
+                contenido: "Proyecto personal en After Effects aplicando la teoría de animación para crear un ciclo de caminata. Se utilizó una metodología de lo general a lo particular y expresiones como "loopIn" y "loopOut" para bucles. La animación del parpadeo se logró duplicando e intercalando composiciones. Se enfocó en agregar realismo y personalidad al personaje, especialmente con overlapping, y se usaron nulos con direcciones contrarias para el desplazamiento del personaje.",
                 url:"https://www.youtube.com/embed/8E0lcQmBvb0?autoplay=1&mute=1",
                 heigth:"",
                 width:"",
                 hidden: "block"
               })
-            })} 
-            {proyectoSecundario({
-              imagen: "https://i.imgur.com/ZZOdp4P.png",
-              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ZZOdp4P.png", {
-                titulo: "Demo herramientas After Effects",
-                contenido:"'Proyecto realizado como parte de la materia 'Seminario de prácticas profesionales', elaborado con el software After Effects. Tiene el propósito de demostrar de forma concisa algunas de las técnicas y herramientas que manejo en Adobe After Effects. Las técnicas demostradas son las siguientes: Capas 3D, Luces virtuales, Animación de cámaras, Animación de texto que siga una forma libre, Animación de texto tipo escritura a mano.'",
-                url:"https://www.youtube.com/embed/haWSmT4dnOQ?autoplay=1&mute=1",
-                heigth:"480",
-                width:"640",
-                hidden: "block"
-              })
-            })}
-            {proyectoSecundario({
-              imagen: "https://i.imgur.com/qWCYJpR.png",
-              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qWCYJpR.png", {
-                titulo: "Pelota AE.",
-                contenido: "Este proyecto en 2D, desarrollado con el software After Effects, se enfocó en la manipulación del gráfico de curvas para lograr una animación fluida y realista. Se agregó personalidad a la pelota mediante expresiones faciales que evolucionan a lo largo de la animación, enfatizando el carácter de la misma. Además, se aplicó el principio de exageración para otorgarle una estética caricaturesca, asegurando un impacto visual distintivo.",
-                url:"https://www.youtube.com/embed/LQTOETGxUAM?autoplay=1&mute=1",
-                heigth:"",
-                width:"",
-                hidden: "block"
-              })
-            })}  
-            {proyectoSecundario({
+            })}            
+           {proyectoSecundario({
               imagen: "https://i.imgur.com/ooCXppk.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/ooCXppk.png", {
                 titulo: "Proyecto carrera + parallax.",
-                contenido: "Proyecto realizado con el software After Effects como parte de una práctica personal con el objetivo de desarrollar un ciclo de carrera. Se desarrolló el ciclo teniendo en cuenta la teoría de Richard Williams y prestando atención a las diferencias con un ciclo de caminata. Para la realización del fondo con efectos parallax se duplicaron por diferentes cantidades (dependiendo la velocidad buscada) y se colocaron unas seguidas de otra para luego animar la posición de la principal. Por último se agregaron efectos como desenfoque y ruido para darle los últimos detalles al trabajo.",
+                contenido: "Este proyecto personal realizado con After Effects desarrolla un ciclo de carrera basado en la teoría de Richard Williams, destacando las diferencias con un ciclo de caminata. Para el fondo con efectos parallax, se duplicaron y animaron capas a diferentes velocidades. Se añadieron efectos de desenfoque y ruido para un acabado dinámico y atractivo.",
                 url:"https://www.youtube.com/embed/FD6kkSW0LaE?autoplay=1&mute=1",
                 heigth:"",
                 width:"",
