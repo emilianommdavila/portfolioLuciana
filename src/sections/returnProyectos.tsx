@@ -103,7 +103,7 @@ function ReturnProyectos() {
                 url:"https://www.youtube.com/embed/pQW5kQavudY?autoplay=1&mute=1",
                 heigth:"",
                 width:"",
-                hidden: "none"
+                hidden: "block"
               })
             })}
              {proyectoSecundario({
