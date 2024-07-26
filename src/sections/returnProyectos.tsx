@@ -96,14 +96,15 @@ function ReturnProyectos() {
               })
             })}
                 {proyectoSecundario({
-              imagen: "https://i.imgur.com/yb1d93d.png",
-              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/yb1d93d.png", {
+              imagen: "https://i.imgur.com/NqPxOFd.png",
+              afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/NqPxOFd.png", {
                 titulo: "The Mermaid State",
                 contenido: "En este proyecto, utilicé el software After Effects para crear una animación vibrante y dinámica. A través de la combinación de colores y sonidos busco dar vida a un logo inspirado en mar.",
                 url:"https://www.youtube.com/embed/pQW5kQavudY?autoplay=1&mute=1",
-                heigth:"480",
-                width:"640",
-                hidden: "block"
+                url:"ds",
+                heigth:"",
+                width:"",
+                hidden: "none"
               })
             })}
              {proyectoSecundario({
