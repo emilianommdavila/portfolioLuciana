@@ -110,7 +110,7 @@ function ReturnProyectos() {
               imagen: "https://i.imgur.com/qeOHvOE.png",
               afectarFuncion: () => afectarOtraParteDelHTML("https://i.imgur.com/qeOHvOE.png", {
                 titulo: "Ciclo de Caminata",
-                contenido: "Proyecto personal en After Effects aplicando la teoría de animación para crear un ciclo de caminata. Se utilizó una metodología de lo general a lo particular y expresiones como "loopIn" y "loopOut" para bucles. La animación del parpadeo se logró duplicando e intercalando composiciones. Se enfocó en agregar realismo y personalidad al personaje, especialmente con overlapping, y se usaron nulos con direcciones contrarias para el desplazamiento del personaje.",
+                contenido: "Proyecto personal en After Effects aplicando la teoría de animación para crear un ciclo de caminata. Se utilizó una metodología de lo general a lo particular y expresiones como 'loopIn' y 'loopOut' para bucles. La animación del parpadeo se logró duplicando e intercalando composiciones. Se enfocó en agregar realismo y personalidad al personaje, especialmente con overlapping, y se usaron nulos con direcciones contrarias para el desplazamiento del personaje.",
                 url:"https://www.youtube.com/embed/8E0lcQmBvb0?autoplay=1&mute=1",
                 heigth:"",
                 width:"",
